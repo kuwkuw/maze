@@ -1,0 +1,45 @@
+.content{
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+.maze-wrp{
+    /*text-align: center;*/
+    display: inline-block;
+}
+
+.controls-wrp{
+    text-align: left;
+    width: 30em;
+    /*display: inline-block;*/
+}
+
+.maze-feald{
+    border: 2px solid black;
+    height: 30em;
+    width: 30em;
+    display: inline-block;
+}
+
+.maze-cell{
+    background: #fff;
+    float: left;
+    height: 3em;
+    width: 3em;
+}
+
+.maze-cell-wall{
+    background: #252831;
+}
+
+.maze-cell-exit{
+    background: red;
+}
+
+.maze-cell-start{
+    background: yellow;
+}
+
+.path{
+    background: green;
+}

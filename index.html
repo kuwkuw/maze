@@ -3,8 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Maze</title>
+	<link rel="stylesheet" href="css/main.css">
+
+    <script src="js/search.js" defer></script>
+	<script src="js/pageControls.js" defer></script>
+	<script src="js/maze.js" defer></script>
+	<script src="js/page.js" defer></script>
+	<script src="js/app.js" defer></script>
 </head>
 <body>
-	<div data-component="page"></div>
+	<div class="content" data-component="page">
+		<div class="maze-wrp">
+			<div class="controls-wrp" data-component="maze-controls"></div>
+			<div class="maze-feald" data-component="maze"></div>
+		</div>
+	</div>
 </body>
 </html>
